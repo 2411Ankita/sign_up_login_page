@@ -27,7 +27,13 @@ class HomePage extends StatelessWidget{
                   SizedBox(
                     height: 20,
                   ),
-                  Image.asset("assets/welcome.gif"),
+                  Text(
+                    "welcome",
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 50,
+                    ),
+                  ),
                   SizedBox(
                     height: 20,
                   ),
